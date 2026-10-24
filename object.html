@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b18">
+  <meta name="description" content="探索太陽系天體的詳細介紹、特色與基本資料。">
+  <title>天體探索 — 星際漫遊</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="object-page-body">
+  <div class="shell object-shell">
+    <header class="object-header">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">✳</span> 星際漫遊</a>
+      <nav class="object-nav" aria-label="天體頁面導覽">
+        <a href="index.html#explorer">太陽系模型</a>
+        <a href="index.html#worlds">行星世界</a>
+        <a href="index.html#beyond">其他天體</a>
+      </nav>
+      <a class="back-home" href="index.html">← 回到太陽系</a>
+    </header>
+
+    <main id="objectContent" class="object-main" aria-live="polite">
+      <div class="object-loading">正在整理星際資料……</div>
+    </main>
+
+    <footer><span>天文數據為近似值，內容以科普介紹為主。</span><a href="index.html">星際漫遊　·　探索太陽系</a></footer>
+  </div>
+  <script src="celestial-data.js"></script>
+  <script src="object-detail.js"></script>
+</body>
+</html>
